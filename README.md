@@ -20,6 +20,7 @@ water-body-analysis/
 - analysis/ # Methodology and observations
 - .gitignore
 - README.md
+- requirements.txt
 
 
 ```bash
