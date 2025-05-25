@@ -23,8 +23,8 @@ water-body-analysis/
 
 
 ```bash
-    git clone https://github.com/yourusername/water-body-analysis.git
-    cd water-body-analysis
+    git clone https://github.com/divyanshu-guptaa/water-body-classification-and-analysis.git
+    cd water-body-classification-and-analysis
     pip install -r requirements.txt
 ```
 
