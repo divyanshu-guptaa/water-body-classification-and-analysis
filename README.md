@@ -31,7 +31,9 @@ water-body-analysis/
 This project uses satellite images for 20 years (monthly).
 
  **Download the dataset from Kaggle:**
+ 
 [https://www.kaggle.com/datasets/adityapathakk/modis-2003-2012](https://www.kaggle.com/datasets/adityapathakk/modis-2003-2012)
+
 [https://www.kaggle.com/datasets/aur1ga/modis-2013-2022](https://www.kaggle.com/datasets/aur1ga/modis-2013-2022)
 
 Place all `.tif` files inside the `data/` folder.
