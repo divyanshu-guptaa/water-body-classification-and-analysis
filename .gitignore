@@ -1,0 +1,9 @@
+# Ignore large data and temporary files
+data/
+*.tif
+*.npy
+*.npz
+*.pkl
+*.log
+__pycache__/
+.ipynb_checkpoints/
