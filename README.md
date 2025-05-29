@@ -3,8 +3,8 @@
 This project analyzes monthly satellite images from MODIS dataset to detect and quantify changes in permanent and seasonal water bodies over a 20-year period.
 
 ## 🔍 Key Features
-- Downscale images using bilinear interpolation
-- Segment water vs non-water using Otsu's thresholding
+- Downscale images using lanczos interpolation
+- Permanent vs temporary water bodies using Otsu's thresholding
 - Compute area of water bodies monthly
 - Track seasonal and long-term changes
 
@@ -29,7 +29,18 @@ water-body-analysis/
     pip install -r requirements.txt
 ```
 
-This project uses satellite images for 20 years (monthly).
+## 🛰️ Dataset Description
+This project uses a dataset of raw satellite images, representing monthly observations over a 20-year period (240 images total). Each image contains a wide view of a geographic region, including the target area of interest.
+
+Format: .tif (GeoTIFF)
+
+Temporal coverage: January 2003 to December 2022
+
+Frequency: 1 image per month
+
+Contents: Each image includes land, water bodies, and seasonal variations
+
+Preprocessing: Region of interest (Uttarakhand) is extracted during runtime before further analysis.
 
  **Download the dataset from Kaggle:**
  
